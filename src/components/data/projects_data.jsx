@@ -1,9 +1,9 @@
-// import tweetme from "../../assets/projects_images/tweetme.PNG";
+ import tictactoe from "../../assets/projects_images/tictaktoe.PNG";
 import chatapp from "../../assets/projects_images/chatapp.JPG";
 import hardware_store from "../../assets/projects_images/hardware_store.jpg";
 import portfolio from "../../assets/projects_images/portfolio.JPG";
-import new_year from "../../assets/projects_images/new_year.jpg";
-import color_classification from "../../assets/projects_images/color_classification.jpg";
+import movie from "../../assets/projects_images/movie.png";
+import tesla from "../../assets/projects_images/tesla.PNG";
 import blinking from "../../assets/projects_images/blinking.JPG";
 import COVID from "../../assets/projects_images/COVID.jpg";
 import Dev_talks from "../../assets/projects_images/Dev_talks.jpg";
@@ -33,14 +33,6 @@ const data_projects = [
     category: ["node", "socket.io", "react"],
   },
 
-  // {
-  //   name: "Twitter Clone",
-  //   image: tweetme,
-  //   deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-  //   github_url: "https://github.com/Dey-Sumit/tweetme",
-  //   category: ["django", "react"],
-  // },
-
   {
     name: "Shop Website",
     image: hardware_store,
@@ -56,18 +48,19 @@ const data_projects = [
   },
 
   {
-    name: "Bengali New Year",
-    image: new_year,
-    deployed_url: "https://dey-sumit.github.io/NewYear/",
+    name: "Movie Search World",
+    image: movie,
+    deployed_url: "https://movie-search-anuj.netlify.app/",
+    github_url: "https://github.com/Anujsharma2590/movie-search-app",
     category: ["vanilla"],
   },
 
   {
-    name: "Color Classification using tf.js",
-    image: color_classification,
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
-    category: ["node", "machine_learning"],
+    name: "Tesla-Clone",
+    image: tesla,
+    deployed_url: "https://tesla-anuj.netlify.app/",
+    github_url: "https://github.com/Anujsharma2590/tesla.com-clone-react-redux",
+    category: ["node", "redux", "react"],
   },
 
   {
@@ -76,6 +69,13 @@ const data_projects = [
     deployed_url: "https://dey-sumit.github.io/Blinking_Bubbles/",
     github_url: "https://github.com/Dey-Sumit/Blinking_Bubbles",
     category: ["processing"],
+  },
+  {
+    name: "Tic-Tac-Toe",
+    image: tictactoe,
+    deployed_url: "https://tictaktoe-anuj.netlify.app/",
+    github_url: "https://github.com/Anujsharma2590/tic-tac-toe-react",
+    category: ["react.js"],
   },
 ];
 
