@@ -15,10 +15,10 @@ const Resume = () => {
             <p className="resume-card__name">
               Lovely Professional University(2021)
             </p>
-            <p className="resume-card__details">
+            {/* <p className="resume-card__details">
               I did my B.tech in Computer Science & Engineering
               from Lovely professional University
-            </p>
+            </p> */}
           </div>
         </div>
         {/* <div className="col-lg-6 resume-card">

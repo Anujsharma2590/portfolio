@@ -1,4 +1,4 @@
-import tweetme from "../../assets/projects_images/tweetme.PNG";
+// import tweetme from "../../assets/projects_images/tweetme.PNG";
 import chatapp from "../../assets/projects_images/chatapp.JPG";
 import hardware_store from "../../assets/projects_images/hardware_store.jpg";
 import portfolio from "../../assets/projects_images/portfolio.JPG";
@@ -33,13 +33,13 @@ const data_projects = [
     category: ["node", "socket.io", "react"],
   },
 
-  {
-    name: "Tweeter Clone",
-    image: tweetme,
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
-    category: ["django", "react"],
-  },
+  // {
+  //   name: "Twitter Clone",
+  //   image: tweetme,
+  //   deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
+  //   github_url: "https://github.com/Dey-Sumit/tweetme",
+  //   category: ["django", "react"],
+  // },
 
   {
     name: "Shop Website",
