@@ -1,8 +1,9 @@
 import React from "react";
 
 import './Sidebar.css'
-import facebook from "../../assets/icons/facebook.svg";
-import instagram from "../../assets/icons/instagram.svg";
+import linkedin from "../../assets/icons/icons8-linkedin.svg"
+// import facebook from "../../assets/icons/facebook.svg";
+// import instagram from "../../assets/icons/instagram.svg";
 import github from "../../assets/icons/github.svg";
 import pin from "../../assets/icons/pin.svg";
 import tie from "../../assets/icons/tie.svg";
@@ -48,18 +49,28 @@ const Sidebar = () => {
         </div>
       </a>
       <figure className="sidebar__social-icons my-2">
-        <a href="!#">
+        {/* <a href="!#">
           <img src={facebook} alt="facebook" className="sidebar__icon mr-3" />
         </a>
         <a href="!#">
           <img src={instagram} alt="instagram" className="sidebar__icon mr-3" />
-        </a>
-        <a href="!#">
+        </a> */}
+        <a
+          href="https://github.com/Anujsharma2590"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={github} alt="github" className="sidebar__icon mr-3" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/anuj-sharma-1a5808b2/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={linkedin} alt="github" className="sidebar__icon mr-3" />
         </a>
       </figure>
       <div className="sidebar__contact">
- 
         <div className="sidebar__location sidebar__item">
           <img src={pin} alt="location" className="sidebar__icon mr-1" />
           Gwalior, India
