@@ -1,15 +1,16 @@
 import React from "react";
-import Sidebar from "./components/Sidebar";
-import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Navbar from "./components/Navbar/Navbar";
 import {
   Route,
   Redirect,
   Switch,
   useLocation,
 } from "react-router-dom";
-import About from "./components/About";
-import Resume from "./components/Resume";
-import Projects from "./components/Projects";
+import About from "./components/About/About";
+import Resume from "./components/Resume/Resume";
+import Projects from "./components/projects/Projects";
+import './index.css'
 
 import { AnimatePresence } from "framer-motion";
 

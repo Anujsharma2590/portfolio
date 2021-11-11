@@ -1,6 +1,6 @@
 import React from "react";
-import skills from './data/about_data'
-
+import skills from '../data/about_data'
+import './About.css'
 import Skillcard from "./Skillcard";
 
 

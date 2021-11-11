@@ -1,12 +1,13 @@
 import React from "react";
 
-import facebook from "../assets/icons/facebook.svg";
-import instagram from "../assets/icons/instagram.svg";
-import github from "../assets/icons/github.svg";
-import pin from "../assets/icons/pin.svg";
-import tie from "../assets/icons/tie.svg";
-import mightycoder from "../assets/mightycoder.svg";
-import resume from "../assets/resume.pdf";
+import './Sidebar.css'
+import facebook from "../../assets/icons/facebook.svg";
+import instagram from "../../assets/icons/instagram.svg";
+import github from "../../assets/icons/github.svg";
+import pin from "../../assets/icons/pin.svg";
+import tie from "../../assets/icons/tie.svg";
+import myimage from "../../assets/myimage.png"
+import resume from "../../assets/resume.pdf";
 import { motion } from "framer-motion";
 const Sidebar = () => {
   const handleEmailMe = () => {
@@ -27,17 +28,22 @@ const Sidebar = () => {
     },
   };
   return (
-    <motion.div className="sidebar" variants={sidebar_variant}
-            initial='hidden'
-            animate="visible">
-      <img src={mightycoder} alt="avatar" className="sidebar__avatar" />
+    <motion.div
+      className="sidebar"
+      variants={sidebar_variant}
+      initial="hidden"
+      animate="visible"
+    >
+      <img src={myimage} alt="avatar" className="sidebar__avatar" />
       <div className="sidebar__name">
-        Anuj <span>Sharma</span>{" "}
+        <span> Anuj Sharma</span>{" "}
       </div>
-      <div className="sidebar__item sidebar__title">Web Developer</div>
+      <div className="sidebar__item sidebar__title">
+        Full Stack Web Developer
+      </div>
       <a href={resume} download="resume.pdf">
         <div className="sidebar__item sidebar__resume">
-          <img src={tie} alt="resume" className="sidebar__icon" />
+          <img src={tie} alt="resume" className="sidebar__icon mr-1" />
           Download Resume
         </div>
       </a>
@@ -46,18 +52,16 @@ const Sidebar = () => {
           <img src={facebook} alt="facebook" className="sidebar__icon mr-3" />
         </a>
         <a href="!#">
-          <img src={instagram} alt="instagram" className="sidebar__icon" />
+          <img src={instagram} alt="instagram" className="sidebar__icon mr-3" />
+        </a>
+        <a href="!#">
+          <img src={github} alt="github" className="sidebar__icon mr-3" />
         </a>
       </figure>
       <div className="sidebar__contact">
-        <div className="sidebar__item sidebar__github">
-          <a href="!#">
-            <img src={github} alt="github" className="sidebar__icon mr-3" />
-            github
-          </a>
-        </div>
-        <div className="sidebar__location">
-          <img src={pin} alt="location" className="sidebar__icon mr-3" />
+ 
+        <div className="sidebar__location sidebar__item">
+          <img src={pin} alt="location" className="sidebar__icon mr-1" />
           Gwalior, India
         </div>
         <div className="sidebar__item">aanuj.sharma2590@gmail.com</div>

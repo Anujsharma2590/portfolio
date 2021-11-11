@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import data_projects from './data/projects_data'
+import data_projects from '../data/projects_data'
+
 import ProjectCard from './ProjectCard';
 import { motion } from "framer-motion";
-import '../index.css'
+import '../../index.css'
 
 const Projects = () => {
   const [projects, setProjects] = useState(data_projects);

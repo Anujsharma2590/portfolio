@@ -1,7 +1,7 @@
 import React from "react";
 
 import Bar from "./Bar";
-import {tools,languages} from './data/resume_data'
+import {tools,languages} from '../data/resume_data'
 
 
 const Resume = () => {
@@ -13,15 +13,15 @@ const Resume = () => {
           <div className="resume-card__body">
             <h5 className="resume-card__title">Computer Science Enginnering</h5>
             <p className="resume-card__name">
-              Academy of Technology(2017-2021)
+              Lovely Professional University(2021)
             </p>
             <p className="resume-card__details">
-              I am currently persuing B.tech in Computer Science Engineering
-              from Academy of Technology
+              I did my B.tech in Computer Science & Engineering
+              from Lovely professional University
             </p>
           </div>
         </div>
-        <div className="col-lg-6 resume-card">
+        {/* <div className="col-lg-6 resume-card">
           <h4 className="resume-card__heading">Experience</h4>
           <div className="resume-card__body">
             <h5 className="resume-card__title">Intern</h5>
@@ -31,7 +31,7 @@ const Resume = () => {
               testing
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="row">
