@@ -7,7 +7,7 @@ import github from "../../assets/icons/github.svg";
 import pin from "../../assets/icons/pin.svg";
 import tie from "../../assets/icons/tie.svg";
 import myimage from "../../assets/myimage.png"
-import resume from "../../assets/resume.pdf";
+import resume from "../../assets/resume.pdf"
 import { motion } from "framer-motion";
 const Sidebar = () => {
   const handleEmailMe = () => {
@@ -41,7 +41,7 @@ const Sidebar = () => {
       <div className="sidebar__item sidebar__title">
         Full Stack Web Developer
       </div>
-      <a href={resume} download="resume.pdf">
+      <a href={resume} download={resume}>
         <div className="sidebar__item sidebar__resume">
           <img src={tie} alt="resume" className="sidebar__icon mr-1" />
           Download Resume
