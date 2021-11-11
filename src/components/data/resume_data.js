@@ -1,5 +1,5 @@
-import react from "../../assets/icons/react.svg";
-import python from "../../assets/icons/python.svg";
+// import react from "../../assets/icons/react.svg";
+// import python from "../../assets/icons/python.svg";
 import js from "../../assets/icons/javascript.png";
 import reactn from "../../assets/icons/react-native.png";
 import redux from "../../assets/icons/redux.png";
